@@ -1,0 +1,53 @@
+body{
+width:600px;
+margin: 15px auto;
+font-family: Arial, "MS Trebuchet", sans-serif;
+
+}
+
+header, section, footer{
+border-style: dotted;
+border-width: thin;
+border-color: red;
+}
+header#pageheader{
+width: 100%;
+}
+
+header#pageheader nav ul,header#pageFooter nav ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#pageheader nav ul li, #pageFooter nav ul li{
+padding: 0;
+margin: 0 20px 0 0;
+display: inline;
+
+}
+
+p{
+margin: 0 0 30px 15px;
+
+}
+p,li{
+line-height: 20px;
+
+}
+
+/*Ajustar o sidebar*/
+section#sidebar{
+    float:left;
+    width:25%;
+}
+/*Ajustando o posts*/
+section#posts{
+    float: left; /*É FLUTUAR NA PAGINA DE ACORDO COM O Q FOI PEDIDO, NESTE CASO ELE IRÁ FLUTUAR PARA ESQUERDA*/
+    width: 74%;
+}
+/*Ajustar o rodapé*/
+footer#pageFooter{
+    clear: both;
+    width: 100%; 
+}
